@@ -24,6 +24,5 @@
 <script>
     $("#dock").click(function(){
         $("#ship-1").html( $("input#ship").val() );
-
     });
 </script>

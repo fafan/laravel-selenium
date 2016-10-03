@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1474966799">
-  <project timestamp="1474966799">
+<coverage generated="1475470744">
+  <project timestamp="1475470744">
     <package name="App\Console">
       <file name="/Users/fafan/TrainingDay2/php-lumen-yose/app/Console/Kernel.php">
         <class name="Kernel" namespace="App\Console">

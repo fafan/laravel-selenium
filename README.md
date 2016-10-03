@@ -1,3 +1,17 @@
+# Training Day Two with Joshua Partogi (PHP)
+
+Objective: Use Test-Driven Development (TDD) in Development Team
+
+Game Gidelines: http://yosethegame.com/players/apache
+
+Deployment: http://ralalitest.herokuapp.com/
+
+** Tools required: yosethegame, heroku, circleci, git
+
+To run tests:
+```sh
+phpunit
+```
 ## Running locally
 
 Simply run:
@@ -46,7 +60,7 @@ resources/views
 
 To play the game, you will have to deploy the game to a server accessible from the game server.
 
-If you want to try out the [Heroku Cloud Plarform](http://www.heroku.com), I have included the ```Procfile``` files required by Heroku. 
+If you want to try out the [Heroku Cloud Plarform](http://www.heroku.com), I have included the ```Procfile``` files required by Heroku.
 
 You should be able to deploy the application with a simple ```git push``` to Heroku
 

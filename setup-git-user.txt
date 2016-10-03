@@ -1,0 +1,1 @@
+git config remote.origin.url https://username@github.com/repository-folder/repository-name.git
