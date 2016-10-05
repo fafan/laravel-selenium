@@ -1,4 +1,5 @@
-/vendor
 .env
+.git
 composer.lock
 build
+vendor
