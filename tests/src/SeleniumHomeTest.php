@@ -27,19 +27,6 @@ class SeleniumHomeTest extends WebTestCase
     public function testHomepage() {
         echo "\n* SeleniumHomeTest::testHome()";
         $this->url('http://www.example.com/');
-        $this->getScreenshot('example.png');
-        /*$this->registerSessions();
-        $session = $this->getSession();
-        $session->visit($this->baseUrl);
-        $this->url($this->baseurl);
-        try {
-            $this->assertEquals('Index Page', $this->title());
-        }
-        catch (Exception $e) {
-            echo "\n (-) ". $e->getMessage();
-            $file = __DIR__.'/SeleniumHomeTest-'.$this->getName().'.png';
-            echo "\n     Saved screenshot to file '$file'";
-            $this->getScreenshot( $file );
-        }*/
+        $this->getScreenshot(__DIR__. '/example.png');
     }
 }
