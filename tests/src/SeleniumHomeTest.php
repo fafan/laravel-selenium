@@ -5,6 +5,8 @@ class SeleniumHomeTest extends WebTestCase
     private $baseurl = 'http://127.0.0.1:12345/';
 
     protected function setUp() {
+        //$this->setHost('192.168.123.10'); // set this if selenium on remote location
+        //$this->setPort(4444);
         $this->setBrowser('phantomjs'); // set to firefox if you prefer firefox
         $this->setBrowserUrl($this->baseurl);
     }

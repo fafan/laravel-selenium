@@ -1,71 +1,48 @@
-# Training Day Two with Joshua Partogi (PHP)
-
+# PHPUnit + Selenium/PhantomJS implementation for Laravel
+Original code from "Training Day Two with Joshua Partogi (PHP)"
 Objective: Use Test-Driven Development (TDD) in Development Team
 
-Game Gidelines: http://yosethegame.com/players/apache
+Game Guidelines: http://yosethegame.com/players/apache
 
-Deployment: http://ralalitest.herokuapp.com/
+## Running locally with testing setup
 
-** Tools required: yosethegame, heroku, circleci, git
+Simply run:
+
+```sh
+sh start.sh
+```
+
+or for detailed setup, please read:
+```sh
+tests/lib/PHPUnitSeleniumPhantomJS.pdf
+```
+
+If succeed, start.sh will setup Selenium and PhantomJS
+and also start the web server
+
+## Manual setup
+
+In root folder:
+```sh
+composer update
+```
+
+In tests/lib/ folder:
+```sh
+composer update
+```
+
+## Running tests
 
 To run tests:
 ```sh
 phpunit
 ```
-## Running locally
 
-Simply run:
 
-```sh
-php artisan serve
-```
-
+## Browse web application
 ... open your browser and navigate to:
 
 ```sh
-http://localhost:8000
+http://127.0.0.1:12345
 ```
-
-## Running tests
-
-```sh
-php phpunit.phar
-```
-
-## Routes
-
-To add routes open:
-
-```sh
-app/Http/routes.php
-```
-
-## Controllers
-
-To add controllers go to:
-
-```sh
-app/Http/Controllers
-```
-
-## Views
-
-To add views open:
-
-```sh
-resources/views
-```
-
-## Deploy
-
-To play the game, you will have to deploy the game to a server accessible from the game server.
-
-If you want to try out the [Heroku Cloud Plarform](http://www.heroku.com), I have included the ```Procfile``` files required by Heroku.
-
-You should be able to deploy the application with a simple ```git push``` to Heroku
-
-## Continuous Integration
-
-I have included ```circle.yml``` configuration file for CircleCI.com
-
-YoseTheGame
